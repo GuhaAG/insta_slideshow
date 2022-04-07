@@ -1,5 +1,5 @@
-# go-react-boilerplate
-Demo application that shows how to use a react frontend with a Go backend.
+# Instagram Slideshow
+Go API to fetch instragram media with a username, and display them on a webpage. 
 
 ### dependencies
 - yarn
@@ -7,10 +7,10 @@ Demo application that shows how to use a react frontend with a Go backend.
 - go
 - dep
 
-### Quickstart
+### Quickstart (W.I.P.)
 ```bash
-go get github.com/sharath/go-react-boilerplate
-cd $GOPATH/src/github.com/sharath/go-react-boilerplate
+go get github.com/guhaag/insta_slideshow
+cd $GOPATH/src/github.com/guhaag/insta_slideshow
 dep ensure
 cd client && yarn && yarn build
 cd .. && go run App.go
