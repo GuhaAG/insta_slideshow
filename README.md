@@ -24,7 +24,9 @@ run:
 ```bash
 .
 ├── App.go
-├── Gopkg.toml
+├── go.mod
+├── go.sum
+├── Makefile
 ├── README.md
 ├── backend
 │   └── Backend.go
