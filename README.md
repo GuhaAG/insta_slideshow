@@ -7,13 +7,17 @@ Go API to fetch instragram media with a username, and display them on a webpage.
 - go
 - dep
 
-### Quickstart (W.I.P.)
+### Quickstart 
 ```bash
 go get github.com/guhaag/insta_slideshow
 cd $GOPATH/src/github.com/guhaag/insta_slideshow
-dep ensure
-cd client && yarn && yarn build
-cd .. && go run App.go
+
+build:
+	go build
+build_fe:
+	cd client && yarn && yarn build	
+run:
+	go run App.go
 ```
 
 # Project Structure
