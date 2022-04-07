@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/GuhaAG/insta_slideshow/backend"
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
+	"github.com/guhaag/insta_slideshow/backend"
 )
 
 func main() {
