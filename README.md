@@ -1,6 +1,8 @@
 # Instagram Slideshow
 Go API to fetch instragram media with a username, and display them on a webpage. 
 
+[![Go](https://github.com/GuhaAG/insta_slideshow/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/GuhaAG/insta_slideshow/actions/workflows/go.yml)
+
 ### dependencies
 - yarn
 - npm
