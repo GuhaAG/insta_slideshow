@@ -6,6 +6,9 @@
 # idea
 /.idea
 
+# vscode
+/.vscode
+
 # lock file
 Gopkg.lock
 insta_slideshow

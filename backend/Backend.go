@@ -1,13 +1,16 @@
 package backend
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+
+	"github.com/guhaag/insta_slideshow/backend/instagram"
 )
 
 func V1(router *gin.RouterGroup) {
-	router.GET("/users", func(context *gin.Context) {
-		users := []string{"user1", "user2", "user3", "user4"}
-		context.JSON(http.StatusOK, users)
+	router.GET("/images", func(context *gin.Context) {
+		images := instagram.ScrapeMedia()
+		context.JSON(http.StatusOK, images)
 	})
 }

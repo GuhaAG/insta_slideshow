@@ -3,19 +3,19 @@ import React from 'react'
 class Demo extends React.Component {
     constructor() {
         super();
-        this.state = {users: []};
+        this.state = { images: [] };
     }
 
     componentDidMount() {
-        fetch('api/v1/users').then((response) => response.json()).then((js) => this.setState({users: js}));
+        fetch('api/v1/images').then((response) => response.json()).then((js) => this.setState({ images: js }));
     }
 
     render() {
-        let users = this.state.users;
+        let images = this.state.images;
         return (
             <ul>
-                {users.map(user =>
-                    <li>{user}</li>
+                {images.map(img =>
+                    <li>{img}</li>
                 )}
             </ul>
         );
